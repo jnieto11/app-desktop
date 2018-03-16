@@ -11,8 +11,8 @@
   "publish": [
     {
       "win": {
-        "publish": ["github", "bintray"]
-      },
+        "publish":[{"provider": "generic", "repo": "github"}]
+        },
       "owner": "iffy",
       "repo": "https://github.com/jnieto11/app-desktop"
     }
