@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Electron Updater Example</title>
+  <base href="./">
 </head>
 <body>
   Current version: <span id="version">vX.Y.Z</span>
@@ -19,5 +20,6 @@ ipcRenderer.on('message', function(event, text) {
   container.appendChild(message);
 })
 </script>
+ <app-root></app-root>
 </body>
 </html>

@@ -8,11 +8,13 @@
     "email": "sohlich@example.com"
   },
   "description": "Example application.",
-  "publish": [{
-    "provider": "github",
-    "owner": "iffy",
-    "repo": "https://github.com/jnieto11/app-desktop"
-}],
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "iffy",
+      "repo": "https://github.com/jnieto11/app-desktop"
+    }
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -41,6 +43,7 @@
     "core-js": "^2.4.1",
     "electron-debug": "^1.5.0",
     "electron-is-dev": "^0.3.0",
+    "electron-log": "^2.2.14",
     "electron-updater": "^2.21.0",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
