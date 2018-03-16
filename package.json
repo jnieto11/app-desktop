@@ -8,7 +8,7 @@
     "email": "sohlich@example.com"
   },
   "description": "Example application.",
-  "repository": "https://github.com/jnieto11/appDesktop/tree/master/Downloads/angular_on_electron-master",
+  "repository": "https://github.com/jnieto11/app-desktop",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
