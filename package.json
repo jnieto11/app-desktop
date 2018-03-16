@@ -8,10 +8,12 @@
     "email": "sohlich@example.com"
   },
   "description": "Example application.",
-  "publish": [{
+  "publish": [
+    {
       "provider": "generic",
       "url": "https://github.com/jnieto11/app-desktop"
-    }],
+    }
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -81,10 +83,12 @@
       "target": "nsis",
       "icon": "build/icon.ico"
     },
-    "publish": [{
-      "provider": "github",
-      "owner": "iffy",
-      "repo": "https://github.com/jnieto11/app-desktop"
-  }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "iffy",
+        "repo": "https://github.com/jnieto11/app-desktop"
+      }
+    ]
   }
 }

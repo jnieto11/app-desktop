@@ -18,6 +18,11 @@ const { autoUpdater } = require("electron-updater");
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = 'info';
 log.info('App starting...');
+autoUpdater.setFeedURL({
+    provider: 'github',
+    token: '1e9a6f5974362b8f4f97dd2af03d2d4b642b7312',
+    owner: '****',
+  });
 
 //-------------------------------------------------------------------
 // Define the menu
