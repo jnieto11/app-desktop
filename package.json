@@ -10,7 +10,9 @@
   "description": "Example application.",
   "publish": [
     {
-      "provider": "github",
+      "win": {
+        "publish": ["github", "bintray"]
+      },
       "owner": "iffy",
       "repo": "https://github.com/jnieto11/app-desktop"
     }
