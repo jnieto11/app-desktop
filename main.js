@@ -2,6 +2,7 @@ const { app, BrowserWindow,ipcMain } = require('electron');
 path = require('path');
 url = require('url');
 const { autoUpdater } = require("electron-updater");
+require('electron-debug')({showDevTools: true});
 app.on('ready', function () {
     console.log('Starting application!');
     mainWindow = new BrowserWindow({ width: 1280, height: 960 });
