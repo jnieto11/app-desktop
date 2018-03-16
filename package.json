@@ -1,6 +1,6 @@
 {
   "name": "electron_app",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "main.js",
   "license": "MIT",
   "author": {
@@ -8,15 +8,10 @@
     "email": "sohlich@example.com"
   },
   "description": "Example application.",
-  "publish": [
-    {
-      "win": {
-        "publish": [{ "provider": "generic", "url": "https://github.com/jnieto11/app-desktop" }]
-        },
-      "owner": "iffy",
-      "repo": "https://github.com/jnieto11/app-desktop"
-    }
-  ],
+  "publish": [{
+      "provider": "generic",
+      "url": "https://github.com/jnieto11/app-desktop"
+    }],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
