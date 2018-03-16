@@ -8,7 +8,11 @@
     "email": "sohlich@example.com"
   },
   "description": "Example application.",
-  "repository": "https://github.com/jnieto11/app-desktop",
+  "publish": [{
+    "provider": "github",
+    "owner": "iffy",
+    "repo": "https://github.com/jnieto11/app-desktop"
+}],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
