@@ -1,6 +1,6 @@
 {
   "name": "electron_app",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "main.js",
   "license": "MIT",
   "author": {
@@ -80,6 +80,11 @@
     "win": {
       "target": "nsis",
       "icon": "build/icon.ico"
-    }
+    },
+    "publish": [{
+      "provider": "github",
+      "owner": "iffy",
+      "repo": "https://github.com/jnieto11/app-desktop"
+  }]
   }
 }
