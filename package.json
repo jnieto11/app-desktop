@@ -23,7 +23,7 @@
     "dist": "build",
     "ship": "build --win -p always"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
