@@ -8,12 +8,7 @@
     "email": "sohlich@example.com"
   },
   "description": "Example application.",
-  "publish": [
-    {
-      "provider": "generic",
-      "url": "https://github.com/jnieto11/app-desktop"
-    }
-  ],
+  "repository": "https://github.com/jnieto11/app-desktop",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
