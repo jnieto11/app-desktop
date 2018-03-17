@@ -1,0 +1,9 @@
+version: 0.0.9
+files:
+  - url: electron_app-setup-0.0.9.exe
+    sha512: LiwOvD0Qt4TgRJaHt1G2CVuyRrgGWd9UnCkAPM7NSOFSVLZdlh42PZtOZvseOHiWpjedG4lnaN+nOtLZl55Mgw==
+    size: 40078193
+path: electron_app-setup-0.0.9.exe
+sha512: LiwOvD0Qt4TgRJaHt1G2CVuyRrgGWd9UnCkAPM7NSOFSVLZdlh42PZtOZvseOHiWpjedG4lnaN+nOtLZl55Mgw==
+sha2: 71bfe0a3bc294cf09547b138ccd119bfec92eb2f124c69eeb9d1453ccffb3847
+releaseDate: '2018-03-17T00:31:08.694Z'
