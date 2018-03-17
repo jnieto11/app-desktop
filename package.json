@@ -21,7 +21,7 @@
     "distmac": "ng build && build --mac",
     "pack": "electron-builder --dir",
     "dist": "build",
-    "ship": "build --win -p always"
+    "publish": "node_modules/.bin/build --win -p always"
   },
   "private": false,
   "dependencies": {
@@ -82,5 +82,10 @@
       "installerHeaderIcon": "build/installerSidebar.bmp",
       "multiLanguageInstaller": true 
     }
+    ,"publish": [{
+      "provider": "github",
+      "owner": "jnieto11",
+      "repo": "app-desktop"
+  }]
   }
 }
