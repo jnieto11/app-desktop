@@ -1,6 +1,6 @@
 {
   "name": "electron_app",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "main.js",
   "license": "MIT",
   "author": {
@@ -72,6 +72,7 @@
   },
   "build": {
     "appId": "com.example.app",
+    "productName":"Electron App",
     "files": [
       "main.js",
       "build"
@@ -79,9 +80,12 @@
     "mac": {
       "category": "productivity"
     },
-    "win": {
-      "target": "nsis",
-      "icon": "build/icon.ico"
+    "nsis":{
+      "allowToChangeInstallationDirectory":true,
+      "oneClick": false,
+      "installerIcon":"build/icon.ico",
+      "installerHeaderIcon": "build/installerSidebar.bmp",
+      "multiLanguageInstaller": true 
     },
     "publish": [
       {
